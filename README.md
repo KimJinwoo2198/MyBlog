@@ -1,63 +1,57 @@
 # 🍥Fuwari
 
-A static blog template built with [Astro](https://astro.build).
+[Astro](https://astro.build)로 구축된 정적 블로그 템플릿입니다.
 
-[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**📦 Old Hexo Version**](https://github.com/saicaca/hexo-theme-vivia)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 中文**](https://github.com/saicaca/fuwari/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 日本語**](https://github.com/saicaca/fuwari/blob/main/README.ja-JP.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 한국어**](https://github.com/saicaca/fuwari/blob/main/README.ko.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 Español**](https://github.com/saicaca/fuwari/blob/main/README.es.md)
+[**🖥️미리보기 (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**📦Old Hexo Version**](https://github.com/saicaca/hexo-theme-vivia)
 
-> README version: `2024-09-10`
+> README 버전: `2024-04-07`
 
 ![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
-## ✨ Features
+## ✨ 특징
 
-- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
-- [x] Smooth animations and page transitions
-- [x] Light / dark mode
-- [x] Customizable theme colors & banner
-- [x] Responsive design
-- [ ] Comments
-- [x] Search
-- [ ] TOC
+- [x] [Astro](https://astro.build) 및 [Tailwind CSS](https://tailwindcss.com)로 구축됨
+- [x] 부드러운 애니메이션 및 페이지 전환
+- [x] 라이트 모드 / 다크 모드
+- [x] 사용자 정의 가능한 테마 색상 및 배너
+- [x] 반응형 디자인
+- [ ] 댓글
+- [x] 검색
+- [ ] 목차
+## 🚀 사용하는 방법
 
-## 🚀 How to Use
+1. 이 템플릿에서 [새 저장소를 생성](https://github.com/saicaca/fuwari/generate)하거나 이 저장소를 포크하세요.
+2. 블로그를 로컬에서 편집하려면 저장소를 복제하고 `pnpm install` 및 `pnpm add sharp`를 실행하여 종속성을 설치하세요.  
+   - 아직 [pnpm](https://pnpm.io)을 설치하지 않았다면 `npm install -g pnpm`을 실행하여 [pnpm](https://pnpm.io)을 설치하세요.
+3. 블로그를 사용자 정의하려면 `src/config.ts` 구성 파일을 편집하세요.
+4. `pnpm new-post <filename>`을 실행하여 새 게시물을 만들고 `src/content/posts/`에서 편집하세요.
+5. [가이드](https://docs.astro.build/en/guides/deploy/)에 따라 블로그를 Vercel, Netlify, GitHub 페이지 등에 배포하세요. 배포하기 전에 `astro.config.mjs`에서 사이트 구성을 편집해야 합니다.
 
-1. [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
-2. To edit your blog locally, clone your repository, run `pnpm install` AND `pnpm add sharp` to install dependencies.
-   - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
-3. Edit the config file `src/config.ts` to customize your blog.
-4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
-5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
-
-## ⚙️ Frontmatter of Posts
+## ⚙️ 게시물의 머리말 설정
 
 ```yaml
 ---
-title: My First Blog Post
+title: 내 첫 블로그 게시물
 published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: ./cover.jpg
-tags: [Foo, Bar]
-category: Front-end
+description: 내 새로운 Astro 블로그의 첫 번째 게시물입니다!
+image: /images/cover.jpg
+tags: [푸, 바, 오]
+category: 앞-끝
 draft: false
-lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
 ---
 ```
 
-## 🧞 Commands
+## 🧞 명령어
 
-All commands are run from the root of the project, from a terminal:
+모든 명령어는 프로젝트 최상단, 터미널에서 실행됩니다:
 
 | Command                             | Action                                           |
 |:------------------------------------|:-------------------------------------------------|
-| `pnpm install` AND `pnpm add sharp` | Installs dependencies                            |
-| `pnpm dev`                          | Starts local dev server at `localhost:4321`      |
-| `pnpm build`                        | Build your production site to `./dist/`          |
-| `pnpm preview`                      | Preview your build locally, before deploying     |
-| `pnpm new-post <filename>`          | Create a new post                                |
-| `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro --help`                 | Get help using the Astro CLI                     |
+| `pnpm install` AND `pnpm add sharp` | 종속성을 설치합니다.                            |
+| `pnpm dev`                          | `localhost:4321`에서 로컬 개발 서버를 시작합니다.      |
+| `pnpm build`                        | `./dist/`에 프로덕션 사이트를 구축합니다.         |
+| `pnpm preview`                      | 배포하기 전에 로컬에서 빌드 미리보기     |
+| `pnpm new-post <filename>`          | 새 게시물 작성                                |
+| `pnpm astro ...`                    | `astro add`, `astro check`와 같은 CLI 명령어 실행 |
+| `pnpm astro --help`                 | Astro CLI를 사용하여 도움 받기                     |
