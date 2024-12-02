@@ -12,7 +12,7 @@
 
 # Contact Information
 
-> [**Email: contact@kimjinwoo.me**](mailto:contact@kimjinwoo.me) <br> [**Instagram: : @kimjinwoo07**](https://instagram.com/kimjinwoo07) <br>
+> [**Email: contact@kimjinwoo.me**](mailto:contact@kimjinwoo.me) <br> [**Instagram : @kimjinwoo07**](https://instagram.com/kimjinwoo07) <br>
 
 # 개인 프로필 및 이력
 
@@ -24,8 +24,8 @@
 - Counterspell Busan 총괄
 - 디스코드 봇([배틀이](https://battlebot.kr)) CEO
 - [Team. Archive](https://discord.gg/WtGq7D7BZm) CEO
-- [디벤치 포럼](https://devbench.kr/) 개발진
 - [AutoMSG](https://automsg.xyz/) 1인 사업
+- [디벤치 포럼](https://devbench.kr/) 개발진 ( ~ 2024.11 )
 ---
 - Junction Asia 2024 참가
 - 2023 Hello New() World 해커톤 본선 진출
