@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
   subtitle: 'Jinwoo\'s blog',
   lang: 'ko',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
-    hue: 340,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 310,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
@@ -38,18 +38,18 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    // {
-    //   name: 'GitHub',
-    //   url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
-    //   external: true,                               // Show an external link icon and will open in a new tab
-    // },
+    {
+      name: 'GitHub',
+      url: 'https://github.com/KimJinwoo2198',     // Internal links should not include the base path, as it is automatically added
+      external: true,                               // Show an external link icon and will open in a new tab
+    },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Jinwoo Kim',
-  bio: 'From Tech to Everyday Life: Encyclopedia and Creative Playground',
+  bio: '코드로 세상의 문제를 풀고, 소프트웨어로 더 나은 내일을 설계합니다',
   links: [
     {
       name: 'Instagram',
