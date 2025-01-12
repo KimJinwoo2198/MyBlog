@@ -60,12 +60,12 @@ if (!lang) {
 const siteLang = lang.replace('_', '-')
 
 const bannerOffsetByPosition = {
-	'top': '30vh',
-	'center': '15vh',
-	'bottom': '0'
+  top: '30vh',
+  center: '15vh',
+  bottom: '0',
 }
-const bannerOffset = bannerOffsetByPosition[siteConfig.banner.position || 'center']
-
+const bannerOffset =
+  bannerOffsetByPosition[siteConfig.banner.position || 'center']
 ---
 
 <!DOCTYPE html>
@@ -117,6 +117,16 @@ const bannerOffset = bannerOffsetByPosition[siteConfig.banner.position || 'cente
 		</script>
 
 		<slot name="head"></slot>
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JEHCBZEX1R"></script>
+		<script>
+			window.addEventListener('load', () => {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-JEHCBZEX1R');
+			});
+		</script>
 
 		<link rel="stylesheet" href="https://cdn.staticfile.net/KaTeX/0.16.9/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 
