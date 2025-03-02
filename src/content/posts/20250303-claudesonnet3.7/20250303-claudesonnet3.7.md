@@ -1,5 +1,5 @@
 ---
-title: "Claude 3.7 Sonnet: 실전에서 가장 강력한 AI"
+title: "Claude 3.7 Sonnet - 실전에서 가장 강력한 AI"
 published: 2025-03-03
 description: Anthropic의 야심작 Claude 3.7 Sonnet 에 대하여 알아보아요.
 image: ./image1.png
