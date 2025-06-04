@@ -12,39 +12,48 @@
 
 # Contact Information
 
-> [**Email: contact@kimjinwoo.me**](mailto:contact@kimjinwoo.me) <br> [**Instagram : @kimjinwoo07**](https://instagram.com/kimjinwoo07) <br>
+> [**Email: contact@kimjinwoo.me**](mailto:contact@kimjinwoo.me) <br> [**Instagram: : @kimjinwoo07**](https://instagram.com/kimjinwoo07) <br>
 
-# 개인 프로필 및 이력
+# Personal Profile and Career
 
-- 명륜초등학교 졸업
-- 동래중학교 졸업
-- 금정고등학교 재학
+### Education  
+- **Myeongryun Elementary School** Graduate  
+- **Dongnae Middle School** Graduate  
+- Currently enrolled at **Keumjeong High School**  
+
 ---
-- Offical Ambassador of Notion ( 2024.07 ~ Now )
-- Counterspell Busan 총괄
-- 디스코드 봇([배틀이](https://battlebot.kr)) CEO
-- [Team. Archive](https://discord.gg/WtGq7D7BZm) CEO
-- [AutoMSG](https://automsg.xyz/) 1인 사업
-- [디벤치 포럼](https://devbench.kr/) 개발진 ( ~ 2024.11 )
+
+### Key Activities  
+- **Official Ambassador of Notion** (July 2024 ~ Present)  
+- **General Lead of Counterspell Busan Hackathon**  
+- CEO of Discord Bot **[BattleBot](https://battlebot.kr)**  
+- CEO of **[Team Archive](https://discord.gg/WtGq7D7BZm)**  
+- Founder of **[AutoMSG](https://automsg.xyz/)**  
+- Developer at **[DevBench Forum](https://devbench.kr)** (Until November 2024)  
+
 ---
-- Junction Asia 2024 참가
-- 2023 Hello New() World 해커톤 본선 진출
-- ICT AWARD KOREA 2023 프로그래밍 부분 장려상
-- ICT AWARD KOREA 2024 프로그래밍 부분 장려상
-- ICT AWARD KOREA 2021 이산수학 부분 장려상
-- ICT AWARD KOREA 2024 이산수학 부분 장려상
-- 2019 초등학교 SW교육 피지컬컴퓨팅 사고력 대회 우수상
-- 2022 NYPC 예선 통과
-- 금정구 코드코리아 해커톤 우수상 ( 3위 )
+
+### Awards and Competitions  
+- Participated in **Junction Asia 2024**  
+- Finalist in **2023 Hello New() World Hackathon**  
+- **ICT AWARD KOREA**  
+  - Programming Division, Encouragement Award (2023, 2024)  
+  - Discrete Mathematics Division, Encouragement Award (2021, 2024)  
+- Excellence Award in **2019 Elementary SW Education Physical Computing Logical Thinking Competition**  
+- Qualified for **2022 NYPC Preliminaries**  
+- **Geumjeong-gu Code Korea Hackathon**, Excellence Award (3rd Place)  
+
 ---
-- **Google Advanced Data Analytics Professional Certificate** 취득
-- **Google Data Analytics Professional Certificate** 취득
-- **Google IT Support Professional Certificate** 취득
-- **Google Project Management: Professional Certificate** 취득
-- **IBM Data Analyst Professional Certificate** 취득
-- **Intel® AI Fundamentals Specialization** 이수
-- **Meta Back-End Developer Professional Certificate** 취득
-- **Meta Database Engineer Professional Certificate** 취득
-- **Meta Front-End Developer Professional Certificate** 취득
+
+### Certifications and Training  
+- **Google Advanced Data Analytics Professional Certificate**  
+- **Google Data Analytics Professional Certificate**
+- **Google IT Support Professional Certificate**  
+- **Google Project Management: Professional Certificate**  
+- **IBM Data Analyst Professional Certificate**  
+- **Intel® AI Fundamentals Specialization**  
+- **Meta Back-End Developer Professional Certificate**  
+- **Meta Database Engineer Professional Certificate**  
+- **Meta Front-End Developer Professional Certificate**  
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kimjw0628)](https://solved.ac/kimjw0628)

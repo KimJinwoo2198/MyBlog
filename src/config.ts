@@ -9,7 +9,7 @@ import { LinkPreset } from './types/config'
 export const siteConfig: SiteConfig = {
   title: 'Jinwoo Kim',
   subtitle: 'Jinwoo\'s blog',
-  lang: 'ko',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
+  lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 310,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: false,     // Hide the theme color picker for visitors
@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
       url: ''                // (Optional) URL link to the original artwork or artist's page
     }
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: [
     // {
     //   src: '/favicon/favicon-32x32.png',    // Path of the favicon, relative to the /public directory
     //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
@@ -38,6 +38,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
+    LinkPreset.Projects,
     {
       name: 'GitHub',
       url: 'https://github.com/KimJinwoo2198',     // Internal links should not include the base path, as it is automatically added
