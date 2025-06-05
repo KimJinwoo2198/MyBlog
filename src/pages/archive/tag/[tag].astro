@@ -17,14 +17,24 @@ export async function getStaticPaths() {
 
   const allTagsArray = Array.from(allTags)
 
-  return allTagsArray.map(tag => ({
-    params: {
-      tag: tag,
-    },
-  }))
+  // Generate static paths for both raw and percent-encoded tag values
+  return allTagsArray.flatMap(tagValue => {
+    const encodedTag = encodeURIComponent(tagValue)
+    return [
+      { params: { tag: tagValue } },
+      { params: { tag: encodedTag } },
+    ]
+  })
 }
 
-const tag = Astro.params.tag as string
+const rawTag = Astro.params.tag as string
+// Decode percent-encoded tag if necessary
+let tag: string
+try {
+  tag = decodeURIComponent(rawTag)
+} catch {
+  tag = rawTag
+}
 ---
 
 <MainGridLayout title={i18n(I18nKey.archive)} description={i18n(I18nKey.archive)}>
