@@ -26,6 +26,7 @@
 ### Key Activities  
 - **Official Ambassador of Notion** (July 2024 ~ Present)  
 - **General Lead of Counterspell Busan Hackathon**  
+- CEO of **[Reporch](https://reporch.com)**
 - CEO of Discord Bot **[BattleBot](https://battlebot.kr)**  
 - CEO of **[Team Archive](https://discord.gg/WtGq7D7BZm)**  
 - Founder of **[AutoMSG](https://automsg.xyz/)**  
@@ -34,14 +35,18 @@
 ---
 
 ### Awards and Competitions  
+- **Korea Olympiad in Informatics (KOI) 2025**  
+  - First Round: Gold Medal (6th overall, 2nd among general schools)  
+  - Second Round: Bronze Medal
 - Participated in **Junction Asia 2024**  
 - Finalist in **2023 Hello New() World Hackathon**  
-- **ICT AWARD KOREA**  
+- **ICT AWARD KOREA**
+  - Programming Division, Bronze Award (2025)
   - Programming Division, Encouragement Award (2023, 2024)  
-  - Discrete Mathematics Division, Encouragement Award (2021, 2024)  
+  - Discrete Mathematics Division, Encouragement Award (2021, 2024) 
 - Excellence Award in **2019 Elementary SW Education Physical Computing Logical Thinking Competition**  
 - Qualified for **2022 NYPC Preliminaries**  
-- **Geumjeong-gu Code Korea Hackathon**, Excellence Award (3rd Place)  
+- **Keumjeong-gu Code Korea Hackathon**, Excellence Award (2rd Place)  
 
 ---
 
